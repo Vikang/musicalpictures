@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "imaginary-friend-345021",
+  "private_key_id": "6bf2e8c5b0c3c09b1a11d76117be3eac16358d85",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDnCHRmUraVmfBV\nJUOANY1eEHRzM6VAv4jMX3bQD/gonRUc5uY4qaUWbcvldg2YT4PO1cghRvVhnfA7\nsklfVmbi9idao/UzrXOwiJGgC9lm3tP3wGjG53lUBy6Ii+hrKjGsN5YepE2xOlhT\nXWLdlw3pD1ebw34hQCyRJ7ZGZgYu+E4iRBvybl8zgLs7HxyBVjWDwPpmwvLjgx6Y\ncI2cI2BvAytAZJfjCsrG7WQdRL2qN25qHEkP83g1fbmgpD2jCmSzI7zCrITE4k6S\ne1QntEF4xU/hWn5iIIrqnCs8OtVEQ8L51o1BRKrgAF2p/Bv2GMxFZTlNSZ93QZSv\n8p6AMazxAgMBAAECggEAJj7HDh1JLnDCUUYO641x7o1oyZ1WEObkHXj8MStDmG2Q\nji1HFUA4HQNmCoFFdN5M4pOPQrr9agB8QVWdQdQKyi2XjDCyKbDgAuxItybfAWGH\n026dqbet5RQfRulqOztL58d36XCnj9wpvPsrn6Ue32LzzMxK9/QorIrXaMYA5gtS\nVx2NhaQldTqEz+bms2qrlKqFHaGu+zKq0lmBg2CxpyDYfAyqNMZSmfNx5NGpfUbK\nFvyxYYrNW+1dY1DPAi6pada+rskEX99u4Q4SCLgeutre3yD1F6XABGlQ/inN0Lxr\n+ZllZPSgawtz3W+LQk4rHHvZI5TFTHm5GuLtKXmM9QKBgQDzR4AyNN/DYnesli4z\nrvPvAjuCF9X0AnY5EHV4P08ENOsthoASUYZW7sg7i50vBsWG4f33WXR1/BXKg3kl\nSsfF5b2NfWpVzjWrfUffUGXL4CtASr1lktUVADPqR78bikfx26oPotjclm2YninU\nzx46b/OLBQCdPRBpF+5LDkI6kwKBgQDzHQb1rQADBPjeczTCWg5LhirjOJuqyJC7\nCIEFcAhFrDgLZB2GdGkGOz/91EdAguwURraymFvgKDXm1sxq7uiz+vXmRgtXUQHB\niNlu4EUCli5HIoWvDxSJGI3tk6XAakrNOVMkZEFAkt4Xoxb/omcaueJXDxzWr4mk\n3b6Go+t46wKBgEThrc6JYgH0U2Yub456rt6xhx/il9WrDMZDfr85TaonQZ92QbTu\nGFds7IzPjwXNqQfz3PC4B12QrqrUZuzEK6RA1FbHd+Arrs6LflogbXI4Woatosqr\ntGFp2UkwX0/w60XzqEcdGMH8ZbOctMNokWqCYDawh+f9bjQTbokZ1G65AoGALN7u\nqemEVwpT5LrewgBdIxNgVw/bq2nZTKwFJDvJSxK+RVv1FxvlRoEpDnBftkhzykpC\n7jOwwW6qhDChChuOV6m6OQY0kakh6daYSx6ZniCZ6gc1JVpjL+qYR4E41orHw5kQ\n/2aBpKl21GYFmKkg3o3weKERcY50mTlUMQWQMIECgYEA2bKGuGEOOUFX3J/5mpc+\nswj6hz4O1buP8n5PUTObYfnCGbsAuXo/ucntN+g4nFYMbWMUbsP/0oxwpw2Bsm2+\nOyqObBO1TSa4Ctl+wMOyi8Y7Wlhte5F4RDQ19Hbxpu+xCla0+SJVSaRr0g/Q8/Lt\n7W/mfpvpQ5dH7T3ONDGtD0k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vw-cloud-admin@imaginary-friend-345021.iam.gserviceaccount.com",
+  "client_id": "111407668413968934232",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vw-cloud-admin%40imaginary-friend-345021.iam.gserviceaccount.com"
+}

@@ -1,7 +1,9 @@
 import requests
-from get_songs import get_songs
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-api_key = "577df94cf7f2760f8175b39f6cd4bf00"
+api_key = os.getenv('MUSICMIX_KEY')
 def getLyrics(q_track, q_artist):
     q_track = q_track.strip()
     q_artist = q_artist.strip()

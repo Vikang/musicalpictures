@@ -8,3 +8,6 @@ def lyrictoimage(text):
         print(response.status_code)
         data = response.json()
         print(data['items'][0]['link'])
+
+
+lyrictoimage("apple father job")

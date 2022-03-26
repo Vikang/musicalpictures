@@ -4,7 +4,9 @@ import requests
 
 numOfPages = str(1)
 
-response = requests.get("http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=db917afb597e2be5c3593ec080755de6&format=json&page=" + numOfPages)
+key="db917afb597e2be5c3593ec080755de6"
+
+response = requests.get("http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key="+ key + "&format=json&page=" + numOfPages)
 value = response.json()
 
 trackNo = random.randint(0, len(value["tracks"]["track"]))

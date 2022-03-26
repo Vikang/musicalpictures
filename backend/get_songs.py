@@ -7,7 +7,6 @@ load_dotenv()
 
 def get_songs():
     numOfPages = str(1)
-
     key= os.getenv('FM_KEY')
 
     response = requests.get("http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key="+ key + "&format=json&page=" + numOfPages)

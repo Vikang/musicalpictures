@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as Settings} from './Settings'
+export {default as Help} from './Help'
+export {default as Game} from './Game'
+export {default as Genre} from './Genre'
+export {default as Levels} from './Levels'

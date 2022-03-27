@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { GlobalStyle } from './styles'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Home, Help, Settings, Game, Genre, Levels } from './pages'
+import { Home, Help, Settings, Game, Genre, Levels, GameLyrics } from './pages'
 
 
 function App() {
@@ -17,40 +17,10 @@ function App() {
             <Route path="/genre" element={<Genre />} />
             <Route path="/levels" element={<Levels />} />
             <Route path="/game" element={<Game />} />
+            <Route path="/gameLyrics" element={<GameLyrics />} />
           </Routes>
         </Router>
       </div>
     )
 }
 export default App
-
-// function App() {
-
-//   const [data, setData] = useState([{}])
-
-//   useEffect(() => {
-//     fetch("/members").then(
-//       res => res.json()
-//     ).then(
-//       data => {
-//         setData(data)
-//         console.log(data)
-//       }
-//     )
-//   }, [])
-
-
-//   return (
-//     <div>
-//       {(typeof data.members === 'undefined') ? (
-//         <p>Loading...</p>
-//       ) : (
-//         data.members.map((member,i) => (
-//           <p key={i}>{member}</p>
-//         ) )
-//       )}
-//     </div>
-//   )
-// }
-
-// export default App

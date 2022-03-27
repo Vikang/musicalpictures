@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react'
+import { GameForm, Header } from '../components'
+
+import './Game.css';
 
 function Game() {
   const [data, setData] = useState([{}])
@@ -14,13 +17,17 @@ function Game() {
   }, [])
   return (
     <div>
-      {(typeof data.artist === 'undefined') ? (
-        <p>Loading...</p>
-      ) : (
-        data.links.map((link,i) => (
-          <img src = {link} alt = {link} key = {i}  width="400" height="500"/>
-        ))
-      )}
+      <Header/>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        {(typeof data.artist === 'undefined') ? (
+          <p>Loading...</p>
+        ) : (
+          data.links.map((link,i) => (
+            <img src = {link} alt = {link} class="center" key = {i} height={250} width={250}/>
+          ))
+        )}
+      </div>
+      <GameForm/>
     </div>
   )
 }

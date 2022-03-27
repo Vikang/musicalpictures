@@ -5,19 +5,25 @@ from .get_images import lyrictoimage
 
 #class ApiHandler(Resource):
 
-    # def getRandomLyrics():
-    #     songArtist = get_songs()
-    #     song = songArtist[0]
-    #     artist = songArtist[1]
-    #     print(song)
-    #     print(artist)
+def getRandomLyrics():
+    songArtist = get_song()
+    song = songArtist[0]
+    artist = songArtist[1]
+    print(song)
+    print(artist)
 
-    #     lyrics = getLyrics(song,artist)
-    #     print(lyrics)
-    #     keywords = sample_analyze_syntax(lyrics)
-    #     print(keywords)
-    #     links = lyrictoimage(keywords)
-    #     return (links, song, artist)
+    lyrics = getLyrics(song,artist)
+    print(lyrics)
+    keywords = sample_analyze_syntax(lyrics)
+    print(keywords)
+    links = lyrictoimage(keywords)
+    return {
+    'resultStatus': 'SUCCESS',
+    'message': "Hello Api Handler",
+    'links': links,
+    'song': song,
+    'artist': artist
+    }
 
 def get():
     songArtist = get_song()

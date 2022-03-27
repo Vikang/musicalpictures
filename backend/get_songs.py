@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-def get_songs():
+def get_song():
     numOfPages = str(1)
     key= os.getenv('FM_KEY')
 

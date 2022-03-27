@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
 
-function Game() {
+function GetImages() {
     const [data, setData] = useState([{}])
     useEffect(() => {
       fetch("/game").then(
@@ -26,4 +26,4 @@ function Game() {
     )
   }
 
-export default Game
+export default GetImages

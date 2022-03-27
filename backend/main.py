@@ -3,7 +3,6 @@ from .get_lyrics import getLyrics
 from .analyzeEntity import sample_analyze_syntax
 from .get_images import lyrictoimage
 import webbrowser
-from flask_restful import Api, Resource, reqparse
 
 #class ApiHandler(Resource):
 

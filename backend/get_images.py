@@ -1,7 +1,9 @@
 import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 key = os.getenv('GIMG_KEY')
-cx = os.getenv('cx')
+cx = os.getenv('CX')
 def lyrictoimage(text):
     newtext = text.split()
     for i in newtext:

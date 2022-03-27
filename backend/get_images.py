@@ -1,6 +1,9 @@
+import os
 import requests
-key = "AIzaSyAjBuUJuCHPtMJHU2f3Bl7gV-zAPKmKWvE"
-cx = "bbcd7060a08c5b884"
+from dotenv import load_dotenv
+load_dotenv()
+key = os.getenv('GIMG_KEY')
+cx = os.getenv('CX')
 def lyrictoimage(text):
     newtext = text.split()
     for i in newtext:
@@ -8,6 +11,3 @@ def lyrictoimage(text):
         print(response.status_code)
         data = response.json()
         print(data['items'][0]['link'])
-
-
-lyrictoimage("apple father job")

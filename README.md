@@ -1,5 +1,8 @@
 # Musical Pictures
 A game where you guess the song with images
+
+![Screenshot_2022-03-27_050635](https://user-images.githubusercontent.com/4513787/160274781-a38dc031-39d8-42e7-a5e7-a94ac78f9e8e.png)
+
 # Inspiration
 The idea for Musical Pictures stemmed from another project where text to images was utilized. We wanted to build our own product using the same concept but in a different scenario.
 # What it does
